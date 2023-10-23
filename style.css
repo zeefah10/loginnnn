@@ -205,6 +205,10 @@ body{
     .back{
         height: 80%;
     }
+    
+    .back form .size span{
+        font-size: 0.7em;
+    }
 }
 @media only screen and (min-width: 600px) and (max-width:768px){
     .box{

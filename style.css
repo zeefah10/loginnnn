@@ -146,10 +146,6 @@ body{
     font-size: 0.75em;
     transform: translateY(-35px);
 }
-.back form .inputbox input:valid ~ span,
-.back form .inputbox input:focus ~ span{
-    transform: translateY(-30px);
-}
 .box form .inputbox i{
     position: absolute;
     left: 0;
@@ -213,6 +209,10 @@ body{
     .back form .size span{
         font-size: 0.7em;
     }
+.back form .inputbox input:valid ~ span,
+.back form .inputbox input:focus ~ span{
+    transform: translateY(-30px);
+}
 }
 @media only screen and (min-width: 600px) and (max-width:768px){
     .box{
@@ -225,6 +225,10 @@ body{
 }
 .back{
     height: 80%;
+}
+.back form .inputbox input:valid ~ span,
+.back form .inputbox input:focus ~ span{
+    transform: translateY(-30px);
 }
 }
 @media only screen and (min-width: 768px) and (max-width:922px){
@@ -239,6 +243,10 @@ body{
 .back{
     width: 50%;
     height: 75%;
+}
+.back form .inputbox input:valid ~ span,
+.back form .inputbox input:focus ~ span{
+    transform: translateY(-30px);
 }
 }
 @media only screen and (min-width: 922px) and (max-width:1200px){

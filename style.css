@@ -146,9 +146,9 @@ body{
     font-size: 0.75em;
     transform: translateY(-35px);
 }
-.box form .inputbox input:valid ~ span,
-.box form .inputbox input:focus ~ span{
-    transform: translateY(-25px);
+.back form .inputbox input:valid ~ span,
+.back form .inputbox input:focus ~ span{
+    transform: translateY(-30px);
 }
 .box form .inputbox i{
     position: absolute;
